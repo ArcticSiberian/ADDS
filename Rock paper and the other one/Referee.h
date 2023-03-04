@@ -5,8 +5,6 @@ class Referee{
 
     public:
     Referee();
-    std::string* winner(std::string Human);
-
-       
-    
+    std::string winner(char comp, char human);
+     
 };

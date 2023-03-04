@@ -12,6 +12,11 @@ Human::Human(){
     name="Human";
 }
 
-void Human::enter_move(std::string play){
+void Human::enter_move(char play){
     move=play;
 };
+
+char Human::makeMove(){
+    return move;
+}
+

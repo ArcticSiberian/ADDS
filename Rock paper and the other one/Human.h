@@ -7,8 +7,9 @@ class Human: public Player{
 
     public:
     std::string getName( );
+    char makeMove();
     Human();
     Human(std::string player);
-    void enter_move(std::string play);
+    void enter_move(char play);
 };
 #endif 

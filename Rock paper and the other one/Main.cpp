@@ -8,7 +8,16 @@
 
 int main(){
 
-    Computer comp  
+    Computer comp;
+    Human Pete;
+    Referee Ref;
+    char move;
+   
+    std::cout<<"Enter move: ";
+    std::cin>>move;
+    Pete.enter_move(move);
+
+    Ref.winner(comp.makeMove(),Pete.makeMove());
 
     return 0;
 }
