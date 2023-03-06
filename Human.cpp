@@ -1,4 +1,5 @@
 #include "Human.h"
+#include <string>
 #include <iostream>
 Human::Human(std::string player){
     name=player;

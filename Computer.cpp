@@ -1,5 +1,6 @@
 #include "Computer.h"
 #include <iostream>
+#include <string>
 Computer::Computer(){
     move='R';
 }
