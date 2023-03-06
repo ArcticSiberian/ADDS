@@ -1,10 +1,12 @@
 #include <string>
+#include "Player.h"
 class Referee{
     private:
     std::string name;
 
     public:
     Referee();
-    std::string winner(char comp, char human);
+    Player * refGame(Player * player1, Player * player2);
+    //std::string winner(char comp, char human);
      
 };

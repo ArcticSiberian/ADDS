@@ -12,12 +12,15 @@ int main(){
     Human Pete;
     Referee Ref;
     char move;
+    Player *win;
    
     std::cout<<"Enter move: ";
     std::cin>>move;
     Pete.enter_move(move);
-
-    Ref.winner(comp.makeMove(),Pete.makeMove());
+    
+    win=Ref.refGame(&comp,&Pete);
+    std::cout<<win->getName();
+    std::cout<<" wins:"<<std::endl;
 
     return 0;
 }
