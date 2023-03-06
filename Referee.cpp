@@ -25,7 +25,5 @@ Referee::Referee(){
         return player2;
     }else if(player1->makeMove()=='R' && player2->makeMove()=='P'){
         return player2;
-    }else{
-        return nullptr;
     }
     }
